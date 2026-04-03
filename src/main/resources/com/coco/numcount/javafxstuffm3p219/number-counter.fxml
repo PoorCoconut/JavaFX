@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0" prefWidth="179.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.coco.numcount.javafxstuffm3p219.NumberCounterController">
+   <children>
+      <Label fx:id="numberText" text="0" />
+      <HBox alignment="CENTER" prefHeight="53.0" prefWidth="179.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onIncreaseButtonClick" text="Increase" />
+            <Button mnemonicParsing="false" onAction="#onDecreaseButtonClick" text="Decrease" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
