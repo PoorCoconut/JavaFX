@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="369.0" prefWidth="295.0" spacing="15.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.coco.numcount.javafxstuffm3p219.PizzaOrderSystemController">
+   <children>
+      <Label prefHeight="17.0" prefWidth="150.0" text="Size:" />
+      <ComboBox fx:id="pizzaSizeChoice" onAction="#onPizzaSizeChoiceChosen" prefWidth="150.0" promptText="Select Size..." />
+      <Label prefHeight="17.0" prefWidth="152.0" text="Toppings:" />
+      <ComboBox fx:id="pizzaToppingsChoice" onAction="#onPizzaToppingsChoiceChosen" prefWidth="150.0" promptText="Select Toppings..." />
+      <Label prefHeight="17.0" prefWidth="149.0" text="Extra Cheese:" />
+      <ComboBox fx:id="extraCheeseChoice" onAction="#onExtraCheeseChoiceChosen" prefWidth="150.0" promptText="Select an Option..." />
+      <Button mnemonicParsing="false" onAction="#onCalculateButtonClicked" text="Total">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </Button>
+      <Label fx:id="totalLabel" text="0" />
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>

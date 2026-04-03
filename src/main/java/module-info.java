@@ -4,6 +4,7 @@ module com.coco.numcount.javafxstuffm3p219 {
 
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
+    requires javafx.graphics;
 
     opens com.coco.numcount.javafxstuffm3p219 to javafx.fxml;
     exports com.coco.numcount.javafxstuffm3p219;
